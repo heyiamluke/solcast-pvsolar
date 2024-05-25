@@ -1,9 +1,6 @@
 [project]
 name = "solcast-pvsolar"
-version = "0.0.3"
-authors = [
-  { name="Oziee", email="author@example.com" },
-]
+authors = [{ name="oziee", email="author@example.com" },]
 description = "A small example package"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -12,6 +9,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+dynamic = ["version"]
 
 [project.urls]
 Homepage = "https://github.com/oziee/solcast-pvsolar"
