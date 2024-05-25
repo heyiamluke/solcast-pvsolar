@@ -1,34 +1,4 @@
-=========
-solcast-pvsolar
-=========
-
-| |Build Status| |pypi|
+# Solcast-PVSolar API (Used with HA Solcast Integration)
 
 
-
-
-Solcast API
-
-Client library for interacting with the Solcast API
-
-Basic Usage
------------
-
-Get Forecasts
-~~~~~~~~~~~~~
-
-.. code-block:: python
-
-    from pysolcast.rooftop import RooftopSite
-    
-    site = RooftopSite(api_key, resource_id)
-    forecasts = site.get_forecasts()
-
-
-
-.. |Build Status| image:: https://github.com/oziee/solcast-pvsolar/workflows/Publish/badge.svg
-   :target: https://github.com/oziee/solcast-pvsolar
-
-.. |pypi| image:: https://badge.fury.io/py/pysolcast.svg
-    :target: https://badge.fury.io/py/pysolcast
-
+[![Publish 📦 to PyPI](https://github.com/oziee/solcast-pvsolar/actions/workflows/publish.yml/badge.svg)](https://github.com/oziee/solcast-pvsolar/actions/workflows/publish.yml) 
