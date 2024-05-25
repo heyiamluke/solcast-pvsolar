@@ -26,7 +26,7 @@ Get Forecasts
 
 
 
-.. |Build Status| image:: https://github.com/mcaulifn/solcast/workflows/Publish/badge.svg
+.. |Build Status| image:: https://github.com/oziee/solcast-pvsolar/workflows/Publish/badge.svg
    :target: https://github.com/oziee/solcast-pvsolar
 
 .. |pypi| image:: https://badge.fury.io/py/pysolcast.svg
